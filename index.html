@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   
+<!--Home  -->
+<div class="w-full h-96 md:h-screen bg-[url('https://cdn.pixabay.com/photo/2024/04/19/12/13/ai-generated-8706226_640.png')] bg-cover bg-center">
+    <div class="w-full h-96 md:h-screen bg-black bg-opacity-50">
+        <nav class="w-full p-4 md:p-6 bg-white flex items-center justify-between z-50 shadow-md">
+            
+            <div class="flex flex-col items-center">
+                <h1 class="text-xl md:text-4xl font-bold">The Scholar's Corner</h1>
+                <h2 class="text-xs md:text-lg font-bold">Library</h2>
+            </div>
+           
+            <div class="flex-1">
+                <ul class="flex justify-center flex-wrap text-black gap-x-2 sm:gap-x-4 md:gap-x-20">
+                    <li class="text-sm sm:text-lg md:text-2xl hover:text-zinc-700 hover:cursor-pointer">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="text-sm sm:text-lg md:text-2xl hover:text-zinc-700 hover:cursor-pointer">
+                        <a href="#top-rated">Top Rated</a>
+                    </li>
+                    <li class="text-sm sm:text-lg md:text-2xl hover:text-zinc-700 hover:cursor-pointer">
+                        <a href="#reviews">Reviews</a>
+                    </li>
+                    <li class="text-sm sm:text-lg md:text-2xl hover:text-zinc-700 hover:cursor-pointer">
+                        <a href="#membership">Membership</a>
+                    </li>
+                    <li class="text-sm sm:text-lg md:text-2xl hover:text-zinc-700 hover:cursor-pointer">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="w-full flex justify-center items-center flex-col md:pt-72 pt-20 text-center">
+            <h1 class="text-white text-2xl sm:text-3xl md:text-6xl lg:text-7xl">Unlock a World of Knowledge</h1>
+            <p class="text-white text-sm sm:text-base md:text-xl lg:text-2xl mt-4 px-4">Explore, Learn, and Grow with Our Vast Collection of Books and Digital Resources</p>
+        </div>
+    </div>
+</div>
+
+    
+    
+<!-- About us section -->
+<div class="w-full bg-gray-100 py-16" id="about">
+    <div class="container mx-auto px-4 text-center">
+        
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">About Us</h2>
+        <p class="text-base md:text-lg text-gray-700 mb-8">
+            Welcome to our library, where knowledge meets curiosity. With a vast collection of books, digital resources, and a community of passionate readers, we strive to foster lifelong learning and exploration. Our mission is to provide a welcoming space for everyone to discover new ideas, expand horizons, and grow.
+        </p>
+
+        
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-4 mt-8">
+            
+            <div class="col-span-1 sm:col-span-2">
+                <div class="w-full h-64 md:h-80 overflow-hidden">
+                    <img src="https://thedesignconcept.co.uk/media/14991/chennai_school_library_in_017.jpg?mode=pad&width=1350&height=900&bgcolor=ffffff&rnd=131394977100000000" alt="Library Image 1" class="w-full h-full object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div class="w-full h-64 md:h-80 overflow-hidden">
+                    <img src="https://imgmedia.lbb.in/media/2023/04/6436aa5d27ecb545869f4f91_1681304157591.jpg" alt="Library Image 2" class="w-full h-full object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div class="w-full h-64 md:h-80 overflow-hidden">
+                    <img src="https://t4.ftcdn.net/jpg/08/49/35/97/360_F_849359707_T9pSSRKMULAzDLmbxZjlb6Opcbx7NzX8.jpg" alt="Book Image 3" class="w-full h-full object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+            
+            
+            <div class="col-span-1">
+                <div class="w-full h-64 md:h-80 overflow-hidden">
+                    <img src="https://images.theconversation.com/files/266481/original/file-20190329-139374-1z0c9i3.jpg?ixlib=rb-4.1.0&rect=51%2C0%2C5760%2C2880&q=45&auto=format&w=1356&h=668&fit=crop" alt="Book Image 4" class="w-full h-full object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+            <div class="col-span-1 sm:col-span-2">
+                <div class="w-full h-64 md:h-80 overflow-hidden">
+                    <img src="https://t3.ftcdn.net/jpg/05/46/82/58/360_F_546825880_tAac78uO28slBdsb5PQfvXbkBF9OZiDP.jpg" alt="Library Image 5" class="w-full h-full object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+            <div class="col-span-1">
+                <div class="w-full h-64 md:h-80 overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?cs=srgb&dl=pexels-element5-1370295.jpg&fm=jpg" alt="Library Image 6" class="w-full h-full object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+<!-- Top rated Section -->
+<div class="w-full bg-gray-100 py-16" id="top-rated">
+    <div class="container mx-auto px-4 text-center">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold mb-10">Top Rated</h2>
+
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+           
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="h-64">
+                    <img src="https://i.pinimg.com/originals/f2/41/65/f241656096fd3b9eccb135a6c0f710a1.jpg" alt="Book 1" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Alice in Wonderland</h3>
+                    <p class="text-gray-700 mb-4 text-bold">Lewis Carroll</p>
+                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Open</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="h-64">
+                    <img src="https://cdn.dribbble.com/users/6176732/screenshots/17214108/media/44ff3322617a9836f8c9deb55cf3772e.jpg" alt="Book 2" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">War and Peace</h3>
+                    <p class="text-gray-700 mb-4">Leo Tolstoy</p>
+                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Open</a>
+                </div>
+            </div>
+
+           
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="h-64">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/40c1ee130562871.6182bfa516038.png" alt="Book 3" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">The Alchemist</h3>
+                    <p class="text-gray-700 mb-4">Paulo Coelho</p>
+                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Open</a>
+                </div>
+            </div>
+
+           
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="h-64">
+                    <img src="https://littlenookcreative.com/wp-content/uploads/2021/02/lord-of-the-rings-return-of-the-king-book-cover-imperium-illustrations-portfolio-img-1080x732-1.jpg" alt="Book 4" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">The Lord of the Rings</h3>
+                    <p class="text-gray-700 mb-4">J.R.R. Tolkien</p>
+                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Open</a>
+                </div>
+            </div>
+
+            
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="h-64">
+                    <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d81c475-e58e-4002-8b36-97d2410688d1_1256x688.png" alt="Book 5" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">1984</h3>
+                    <p class="text-gray-700 mb-4">George Orwell</p>
+                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Open</a>
+                </div>
+            </div>
+
+           
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="h-64">
+                    <img src="https://media.licdn.com/dms/image/D4D12AQFYUaFYUnamTg/article-cover_image-shrink_600_2000/0/1684369519321?e=2147483647&v=beta&t=vKeTkXM8T2xme5Blt0M9V6BSx_dC6wBCjEc8x5XR2fo" alt="Book 6" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Wings of Fire</h3>
+                    <p class="text-gray-700 mb-4">A P J Abdul Kalam</p>
+                    <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Open</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Customer Reviews Section -->
+<div class="w-full bg-gray-100 py-16" id="reviews">
+    <div class="container mx-auto px-4 text-center">
+       
+        <h2 class="text-4xl font-bold mb-10">Customer Reviews</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+           
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">John Doe</h3>
+               
+                <div class="text-yellow-500 mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i> 
+                </div>
+                <p class="text-gray-700 font-bold">"The library has a great atmosphere and a wide variety of books to choose from!"</p>
+            </div>
+
+          
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Jane Smith</h3>
+               
+                <div class="text-yellow-500 mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="text-gray-700 font-bold">"An excellent selection of books with friendly and helpful staff!"</p>
+            </div>
+
+            
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Alex Johnson</h3>
+               
+                <div class="text-yellow-500 mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="text-gray-700 font-bold">"Good collection, but some of the books I was looking for were unavailable."</p>
+            </div>
+
+            
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Emily Davis</h3>
+               
+                <div class="text-yellow-500 mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="text-gray-700 font-bold">"Lovely library with a welcoming vibe, perfect for reading and studying."</p>
+            </div>
+
+            
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Michael Lee</h3>
+                
+                <div class="text-yellow-500 mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="text-gray-700 font-bold">"Fantastic variety of genres, especially for fiction lovers!"</p>
+            </div>
+
+          
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Sarah Brown</h3>
+               
+                <div class="text-yellow-500 mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="text-gray-700 font-bold">"Good selection of books, but the seating areas could be more comfortable."</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Membership Section -->
+<div class="w-full bg-white py-16" id="membership">
+    <div class="container mx-auto px-4 text-center">
+        
+        <h2 class="text-4xl font-bold mb-10">Membership</h2>
+
+        
+        <p class="text-xl text-gray-700 mb-6">Join our library and unlock a world of knowledge. Membership fee for 1 year: <span class="text-blue-600 font-bold">$10</span></p>
+
+       
+        <form class="bg-gray-100 shadow-md rounded-lg p-8 max-w-md mx-auto">
+            
+            <div class="mb-6">
+                <label for="name" class="block text-lg font-medium text-gray-700">Name</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your name" required>
+            </div>
+
+            
+            <div class="mb-6">
+                <label for="age" class="block text-lg font-medium text-gray-700">Age</label>
+                <input type="number" id="age" name="age" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your age" required>
+            </div>
+
+           
+            <div class="mb-6">
+                <label for="gender" class="block text-lg font-medium text-gray-700">Gender</label>
+                <select id="gender" name="gender" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            
+            <div class="mb-6">
+                <label for="email" class="block text-lg font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your email" required>
+            </div>
+
+           
+            <div class="mb-6">
+                <label for="phone" class="block text-lg font-medium text-gray-700">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your phone number" required>
+            </div>
+
+           
+            <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
+        </form>
+    </div>
+</div>
+    
+<!-- Contact Us Section -->
+<div class="w-full p-6 bg-gray-100"id="contact">
+    <div class="max-w-4xl mx-auto text-center">
+        
+        <div class="mb-8 mt-5">
+            <h3 class="text-2xl md:text-3xl font-semibold">Contact Us</h3>
+            <p class="text-gray-700 mt-2 text-lg">Phone: +123 456 7890</p>
+            <p class="text-gray-700 text-lg">Email: info@librarywebsite.com</p>
+        </div>
+        
+       
+        <div class="flex justify-center space-x-6 text-gray-700 mt-4">
+            <a href="#" class="hover:text-blue-500"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="hover:text-pink-500"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="hover:text-red-600"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    
+    
+</body>
+</html>
